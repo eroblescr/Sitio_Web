@@ -1,0 +1,130 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'angsana_newregular';
+
+    src: url('../fonts/angsa.ttf') format('woff2'),
+         url('../fonts/angsa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family: "angsana_newregular" , Helvetica, Verdana;
+	background: #212121;
+	color: #FFFFFF;
+	font-size: 2em;
+}
+
+h1{
+	color: #F60;
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+}
+
+header {
+	background: #1E6381;
+    border-radius: 0.5em;
+    margin: 0.5em auto;
+    width: 95%;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+header a{
+	float: left;
+}
+
+header a img{
+	width: 600px;
+	height: 300px;
+}
+header h2{
+	padding-top: 3%;
+    display: inline-block;
+    font-size: 95pt;
+    color: #F51C1C;
+}
+
+nav{
+	background: #1E6381;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	width: 96%;
+	padding: 0.25em;
+	text-align: center;
+}
+
+#contenedor{
+	margin: 0.5em auto;
+	width: 97%;
+	padding: 0;
+	background: #fff;
+	/*background: #212121;*/
+	border-radius: 0.5em;
+	text-align: center;
+}
+#contenedor div{
+	display: inline-flex;
+	width: 100%;
+}
+
+#contenedor div article{
+	background: #011E30;
+	border-radius: 0.5em;
+	
+	padding: 0.25em;
+	width: 75%;
+}
+
+#contenedor div aside{
+	background: #1E6381;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin-left: 0.5%;
+	vertical-align: top;
+	width: 25%;
+}
+
+
+
+ footer{
+	background: #1E6381;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	width: 96%;
+	padding: 0.25em;
+	text-align: center;
+}
+footer ul{
+	 list-style: none;
+    display: inline-flex;
+}
+footer ul li{
+	column-count: 2;
+    column-gap: 30px;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px)  {
+	header h2 {
+	    padding-top: 3%;
+	    display: inline-block;
+	    font-size: 60pt;
+	    color: #F51C1C;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
