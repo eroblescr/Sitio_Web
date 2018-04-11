@@ -29,7 +29,7 @@ h1{
 }
 
 header {
-	background: #1E6381;
+	background: #005883;
     border-radius: 0.5em;
     margin: 0.5em auto;
     width: 95%;
@@ -44,16 +44,16 @@ header a{
 header a img{
 	width: 600px;
 	height: 300px;
+	border-radius: 20px;
 }
 header h2{
 	padding-top: 3%;
-    display: inline-block;
-    font-size: 95pt;
-    color: #F51C1C;
+    font-size: 80pt;
+    color: #FFFFFF;
 }
 
 nav{
-	background: #1E6381;
+	background: #005883;
 	border-radius: 0.5em;
 	margin: 0.5em auto;
 	width: 96%;
@@ -61,12 +61,70 @@ nav{
 	text-align: center;
 }
 
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f2b80d;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 #contenedor{
 	margin: 0.5em auto;
 	width: 97%;
 	padding: 0;
-	background: #fff;
-	/*background: #212121;*/
+	
 	border-radius: 0.5em;
 	text-align: center;
 }
@@ -76,15 +134,14 @@ nav{
 }
 
 #contenedor div article{
-	background: #011E30;
+	background: #005883;
 	border-radius: 0.5em;
-	
 	padding: 0.25em;
 	width: 75%;
 }
 
 #contenedor div aside{
-	background: #1E6381;
+	background: #005883;
 	border-radius: 0.5em;
 	display: inline-block;
 	margin-left: 0.5%;
@@ -92,39 +149,173 @@ nav{
 	width: 25%;
 }
 
+#inicio_1{
+	text-align: justify;
+}
 
+h3{
+	padding-top: 3%;
+   	font-size: 25pt;
+    color: #FFFFFF;
+}
+article#inicio_2{
+	align-content: center;
+	display: block;
+	margin: auto;
+}
 
- footer{
-	background: #1E6381;
+#inicio_2{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
+
+aside ul {
+	    list-style: none;
+	     font-size: 20pt
+}
+aside ul p{
+	    padding-top: 2%;
+	    font-size: 30pt;
+}
+aside ul li{
+	text-align: left;
+    padding-left: 5%;
+}
+
+aside ul li a{
+	 color:#FFFFFF;
+	 text-decoration: none;
+}
+footer{
+	background: #005883;
 	border-radius: 0.5em;
 	margin: 0.5em auto;
 	width: 96%;
 	padding: 0.25em;
 	text-align: center;
+	font-size: 20pt;
 }
 footer ul{
 	 list-style: none;
     display: inline-flex;
 }
 footer ul li{
-	column-count: 2;
-    column-gap: 30px;
+	display: inline-flex;
+}
+footer ul li a {
+	margin: 6px 10px;
 }
 
 
 
-/* Small devices (tablets, 768px and up) */
+
+
+
+/*Acomodar la pagina a los pixeles*/
+
 @media (min-width: 768px) and (max-width: 992px)  {
 	header h2 {
-	    padding-top: 3%;
-	    display: inline-block;
-	    font-size: 60pt;
-	    color: #F51C1C;
+	    padding: 10%;
+	    
+	    font-size: 40pt;
+	    color: #FFFFFF;
 	}
+
+	header a img{
+		width: 400px;
+		height: 300px;
+		border-radius: 20px;
+		/*border: 2px solid grey;*/
+	}
+
+	#inicio_2 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
+	}
+
+	#inicio_1{
+		text-align: justify;
+		 font-size: 14pt
+	}
+
+	footer ul li{
+		column-gap: 10px;
+	}
+
+	aside ul {
+	    list-style: none;
+	     font-size: 14pt
+}
+aside ul p{
+	    font-size: 20pt;
+}
+footer{
+	
+	font-size: 20pt;
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+}
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+
+@media (min-width: 993px) and (max-width: 1199px) {
+	header h2 {
+	    padding: 5% 1%;
+	    font-size: 50pt;
+	    color: #FFFFFF;
+	}
+
+	#inicio_1{
+		text-align: justify;
+		 font-size: 16pt
+	}
+
+
+	#inicio_2 img{
+		width: 350px;
+		height: 350px;
+		border-radius: 20px;
+	}
+
+	aside ul {
+	    list-style: none;
+	     font-size: 18pt
+}
+aside ul p{
+	    font-size: 25pt;
+}
+footer{
+	
+	font-size: 25pt;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+	header h2 {
+	    padding: 5% 1%;
+	    font-size: 50pt;
+	    color: #FFFFFF;
+	}
+
+	#inicio_1{
+		text-align: justify;
+		 font-size: 18pt
+	}
+
+	#inicio_2 img{
+		width: 450px;
+		height: 400px;
+		border-radius: 20px;
+	}
+
+	aside ul p{
+	    font-size: 28pt;
+}
+footer{
+	
+	font-size: 28pt;
+}
+}
