@@ -212,7 +212,7 @@ footer ul li a {
 
 
 
-/*Acomodar la pagina a los pixeles*/
+/*Acomodar la pagina a los pixeles de pantalla "Responsive"*/
 
 @media (min-width: 768px) and (max-width: 992px)  {
 	header h2 {
