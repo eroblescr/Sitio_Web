@@ -16,8 +16,8 @@
 
 body{
 	font-family: "angsana_newregular" , Helvetica, Verdana;
-	background: #212121;
-	color: #FFFFFF;
+	background: #191919;
+	color: #000000;
 	font-size: 2em;
 }
 
@@ -29,7 +29,7 @@ h1{
 }
 
 header {
-	background: #005883;
+	background: #FFFFFF;
     border-radius: 0.5em;
     margin: 0.5em auto;
     width: 95%;
@@ -49,7 +49,7 @@ header a img{
 header h2{
 	padding-top: 3%;
     font-size: 80pt;
-    color: #FFFFFF;
+    color: #f2b80d;
 }
 
 nav{
@@ -60,6 +60,7 @@ nav{
 	padding: 0.25em;
 	text-align: center;
 }
+
 
 .navbar {
   overflow: hidden;
@@ -91,13 +92,13 @@ nav{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #f2b80d;
+  background-color: #005883;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #005883;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -105,7 +106,7 @@ nav{
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -120,11 +121,12 @@ nav{
   display: block;
 }
 
+
+
 #contenedor{
 	margin: 0.5em auto;
 	width: 97%;
 	padding: 0;
-	
 	border-radius: 0.5em;
 	text-align: center;
 }
@@ -134,14 +136,14 @@ nav{
 }
 
 #contenedor div article{
-	background: #005883;
+	background: #FFFFFF;
 	border-radius: 0.5em;
 	padding: 0.25em;
 	width: 75%;
 }
 
 #contenedor div aside{
-	background: #005883;
+	background: #FFFFFF;
 	border-radius: 0.5em;
 	display: inline-block;
 	margin-left: 0.5%;
@@ -151,12 +153,14 @@ nav{
 
 #inicio_1{
 	text-align: justify;
+	height: 500px;
+	overflow-y: scroll;
 }
 
 h3{
 	padding-top: 3%;
    	font-size: 25pt;
-    color: #FFFFFF;
+    color: #000000;
 }
 article#inicio_2{
 	align-content: center;
@@ -184,7 +188,7 @@ aside ul li{
 }
 
 aside ul li a{
-	 color:#FFFFFF;
+	 color:#000000;
 	 text-decoration: none;
 }
 footer{
@@ -195,6 +199,7 @@ footer{
 	padding: 0.25em;
 	text-align: center;
 	font-size: 20pt;
+	color: #FFFFFF;
 }
 footer ul{
 	 list-style: none;
@@ -208,18 +213,37 @@ footer ul li a {
 }
 
 
+/*Para los autores*/
 
+#autor_1 img{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
+#autor_2 img{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
 
-
+#autor_3 img{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
+#autor_4 img{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
 
 /*Acomodar la pagina a los pixeles de pantalla "Responsive"*/
 
 @media (min-width: 768px) and (max-width: 992px)  {
 	header h2 {
 	    padding: 10%;
-	    
 	    font-size: 40pt;
-	    color: #FFFFFF;
+	    color: #f2b80d;
 	}
 
 	header a img{
@@ -238,6 +262,28 @@ footer ul li a {
 	#inicio_1{
 		text-align: justify;
 		 font-size: 14pt
+	}
+	/*Para los autores*/
+	#autor_1 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
+	}
+	#autor_2 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
+	}
+
+	#autor_3 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
+	}
+	#autor_4 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
 	}
 
 	footer ul li{
@@ -263,7 +309,7 @@ footer{
 	header h2 {
 	    padding: 5% 1%;
 	    font-size: 50pt;
-	    color: #FFFFFF;
+	    color: #f2b80d;
 	}
 
 	#inicio_1{
@@ -275,6 +321,29 @@ footer{
 	#inicio_2 img{
 		width: 350px;
 		height: 350px;
+		border-radius: 20px;
+	}
+
+	/*Para los autores*/
+	#autor_1 img{
+		width: 350px;
+		height: 300px;
+		border-radius: 20px;
+	}
+	#autor_2 img{
+		width: 350px;
+		height: 300px;
+		border-radius: 20px;
+	}
+
+	#autor_3 img{
+		width: 350px;
+		height: 300px;
+		border-radius: 20px;
+	}
+	#autor_4 img{
+		width: 350px;
+		height: 300px;
 		border-radius: 20px;
 	}
 
@@ -297,7 +366,7 @@ footer{
 	header h2 {
 	    padding: 5% 1%;
 	    font-size: 50pt;
-	    color: #FFFFFF;
+	    color: #f2b80d;
 	}
 
 	#inicio_1{
@@ -311,6 +380,28 @@ footer{
 		border-radius: 20px;
 	}
 
+	/*Para los autores*/
+	#autor_1 img{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+	}
+	#autor_2 img{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+	}
+
+	#autor_3 img{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+	}
+	#autor_4 img{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+	}
 	aside ul p{
 	    font-size: 28pt;
 }
