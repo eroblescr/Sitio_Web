@@ -4,6 +4,28 @@
 	margin: 0;
 }
 
+div#banner{
+	width: 97%;
+	height: 400px;
+	border-radius: 0.5em;
+    margin: 0.5em auto;
+	background-color: white;
+s
+}
+img#img_banner{
+
+	display: block;
+	border-radius: 0.5em;
+    margin: 0.5em auto;
+	
+	width: 100%;
+	height: 100%;
+	max-width:1850px;
+	min-width: 500p
+	
+
+}
+
 @font-face {
     font-family: 'angsana_newregular';
 
@@ -20,6 +42,7 @@ body{
 	color: #000000;
 	font-size: 2em;
 }
+
 
 h1{
 	color: #F60;
@@ -42,9 +65,11 @@ header a{
 }
 
 header a img{
-	width: 600px;
-	height: 300px;
-	border-radius: 20px;
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width:1200px;
+	min-width: 500p
 }
 header h2{
 	padding-top: 3%;
@@ -127,6 +152,7 @@ nav{
 	margin: 0.5em auto;
 	width: 97%;
 	padding: 0;
+	
 	border-radius: 0.5em;
 	text-align: center;
 }
@@ -213,35 +239,16 @@ footer ul li a {
 }
 
 
-/*Para los autores*/
 
-#autor_1 img{
-	width: 600px;
-	height: 400px;
-	border-radius: 20px;
-}
-#autor_2 img{
-	width: 600px;
-	height: 400px;
-	border-radius: 20px;
-}
 
-#autor_3 img{
-	width: 600px;
-	height: 400px;
-	border-radius: 20px;
-}
-#autor_4 img{
-	width: 600px;
-	height: 400px;
-	border-radius: 20px;
-}
+
 
 /*Acomodar la pagina a los pixeles de pantalla "Responsive"*/
 
 @media (min-width: 768px) and (max-width: 992px)  {
 	header h2 {
 	    padding: 10%;
+	    
 	    font-size: 40pt;
 	    color: #f2b80d;
 	}
@@ -262,28 +269,6 @@ footer ul li a {
 	#inicio_1{
 		text-align: justify;
 		 font-size: 14pt
-	}
-	/*Para los autores*/
-	#autor_1 img{
-		width: 300px;
-		height: 250px;
-		border-radius: 20px;
-	}
-	#autor_2 img{
-		width: 300px;
-		height: 250px;
-		border-radius: 20px;
-	}
-
-	#autor_3 img{
-		width: 300px;
-		height: 250px;
-		border-radius: 20px;
-	}
-	#autor_4 img{
-		width: 300px;
-		height: 250px;
-		border-radius: 20px;
 	}
 
 	footer ul li{
@@ -324,29 +309,6 @@ footer{
 		border-radius: 20px;
 	}
 
-	/*Para los autores*/
-	#autor_1 img{
-		width: 350px;
-		height: 300px;
-		border-radius: 20px;
-	}
-	#autor_2 img{
-		width: 350px;
-		height: 300px;
-		border-radius: 20px;
-	}
-
-	#autor_3 img{
-		width: 350px;
-		height: 300px;
-		border-radius: 20px;
-	}
-	#autor_4 img{
-		width: 350px;
-		height: 300px;
-		border-radius: 20px;
-	}
-
 	aside ul {
 	    list-style: none;
 	     font-size: 18pt
@@ -380,28 +342,6 @@ footer{
 		border-radius: 20px;
 	}
 
-	/*Para los autores*/
-	#autor_1 img{
-		width: 600px;
-		height: 400px;
-		border-radius: 20px;
-	}
-	#autor_2 img{
-		width: 600px;
-		height: 400px;
-		border-radius: 20px;
-	}
-
-	#autor_3 img{
-		width: 600px;
-		height: 400px;
-		border-radius: 20px;
-	}
-	#autor_4 img{
-		width: 600px;
-		height: 400px;
-		border-radius: 20px;
-	}
 	aside ul p{
 	    font-size: 28pt;
 }
