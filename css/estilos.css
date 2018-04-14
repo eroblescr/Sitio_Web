@@ -3,27 +3,22 @@
 	padding: 0;
 	margin: 0;
 }
-
-div#banner{
-	width: 97%;
-	height: 400px;
+header div{
+	width: 96%;
+	height: 250px;
 	border-radius: 0.5em;
     margin: 0.5em auto;
 	background-color: white;
-s
 }
-img#img_banner{
 
+header img#img_banner{
 	display: block;
 	border-radius: 0.5em;
     margin: 0.5em auto;
-	
 	width: 100%;
 	height: 100%;
-	max-width:1850px;
-	min-width: 500p
-	
-
+	/*max-width:2000px;
+	min-width: 500p*/
 }
 
 @font-face {
@@ -33,7 +28,6 @@ img#img_banner{
          url('../fonts/angsa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body{
@@ -43,7 +37,6 @@ body{
 	font-size: 2em;
 }
 
-
 h1{
 	color: #F60;
 	margin: 0.25em auto;
@@ -51,30 +44,25 @@ h1{
 	text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
 }
 
-header {
-	background: #FFFFFF;
+header div {
+	/*background: #FFFFFF;
     border-radius: 0.5em;
     margin: 0.5em auto;
     width: 95%;
     height: 300px;
     padding: 20px;
-    text-align: center;
-}
-header a{
-	float: left;
+    text-align: center;*/
+    display: block;
+	margin: auto;
+	width: 96%;
+	/*max-width:1200px;
+	min-width: 500p*/
 }
 
-header a img{
-	display: block;
-	margin: auto;
+header div#banner img{
 	width: 100%;
-	max-width:1200px;
-	min-width: 500p
-}
-header h2{
-	padding-top: 3%;
-    font-size: 80pt;
-    color: #f2b80d;
+	height: 100%;
+	border-radius: 20px;
 }
 
 nav{
@@ -86,17 +74,16 @@ nav{
 	text-align: center;
 }
 
-
 .navbar {
   overflow: hidden;
-  font-family: Arial;
+  font-family: angsana_newregular;
 }
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 30px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 40px;
   text-decoration: none;
 }
 
@@ -106,11 +93,11 @@ nav{
 }
 
 .dropdown .dropbtn {
-  font-size: 16px; 
+  font-size: 30px; 
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 14px 40px;
   background-color: inherit;
   font-family: inherit; 
   margin: 0;
@@ -146,13 +133,10 @@ nav{
   display: block;
 }
 
-
-
 #contenedor{
 	margin: 0.5em auto;
 	width: 97%;
 	padding: 0;
-	
 	border-radius: 0.5em;
 	text-align: center;
 }
@@ -239,26 +223,33 @@ footer ul li a {
 }
 
 
+/*Para los autores*/
 
+#autor_1 img{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
+#autor_2 img{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
 
-
+#autor_3 img{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
+#autor_4 img{
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+}
 
 /*Acomodar la pagina a los pixeles de pantalla "Responsive"*/
 
 @media (min-width: 768px) and (max-width: 992px)  {
-	header h2 {
-	    padding: 10%;
-	    
-	    font-size: 40pt;
-	    color: #f2b80d;
-	}
-
-	header a img{
-		width: 400px;
-		height: 300px;
-		border-radius: 20px;
-		/*border: 2px solid grey;*/
-	}
 
 	#inicio_2 img{
 		width: 300px;
@@ -269,6 +260,28 @@ footer ul li a {
 	#inicio_1{
 		text-align: justify;
 		 font-size: 14pt
+	}
+	/*Para los autores*/
+	#autor_1 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
+	}
+	#autor_2 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
+	}
+
+	#autor_3 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
+	}
+	#autor_4 img{
+		width: 300px;
+		height: 250px;
+		border-radius: 20px;
 	}
 
 	footer ul li{
@@ -297,6 +310,16 @@ footer{
 	    color: #f2b80d;
 	}
 
+.navbar a {
+  font-size: 30px;
+  padding: 14px 55px;
+ 
+}
+.dropdown .dropbtn {
+  font-size: 30px; 
+  padding: 14px 55px;
+}
+
 	#inicio_1{
 		text-align: justify;
 		 font-size: 16pt
@@ -306,6 +329,29 @@ footer{
 	#inicio_2 img{
 		width: 350px;
 		height: 350px;
+		border-radius: 20px;
+	}
+
+	/*Para los autores*/
+	#autor_1 img{
+		width: 350px;
+		height: 300px;
+		border-radius: 20px;
+	}
+	#autor_2 img{
+		width: 350px;
+		height: 300px;
+		border-radius: 20px;
+	}
+
+	#autor_3 img{
+		width: 350px;
+		height: 300px;
+		border-radius: 20px;
+	}
+	#autor_4 img{
+		width: 350px;
+		height: 300px;
 		border-radius: 20px;
 	}
 
@@ -331,6 +377,16 @@ footer{
 	    color: #f2b80d;
 	}
 
+.navbar a {
+  font-size: 30px;
+  padding: 14px 70px;
+ 
+}
+.dropdown .dropbtn {
+  font-size: 30px; 
+  padding: 14px 70px;
+}
+
 	#inicio_1{
 		text-align: justify;
 		 font-size: 18pt
@@ -342,6 +398,28 @@ footer{
 		border-radius: 20px;
 	}
 
+	/*Para los autores*/
+	#autor_1 img{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+	}
+	#autor_2 img{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+	}
+
+	#autor_3 img{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+	}
+	#autor_4 img{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+	}
 	aside ul p{
 	    font-size: 28pt;
 }
