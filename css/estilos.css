@@ -247,6 +247,7 @@ footer ul li a {
 	border-radius: 20px;
 }
 
+
 /*Acomodar la pagina a los pixeles de pantalla "Responsive"*/
 
 @media (min-width: 768px) and (max-width: 992px)  {
@@ -283,12 +284,24 @@ footer ul li a {
 		height: 250px;
 		border-radius: 20px;
 	}
+/*Para los introduccion*/
 
-	footer ul li{
-		column-gap: 10px;
+#introduccion_1{
+		text-align: justify;
+		 font-size: 14pt
+	}
+/*Para los que es*/
+
+#que_es_1{
+		text-align: justify;
+		 font-size: 14pt
 	}
 
-	aside ul {
+footer ul li{
+		column-gap: 10px;
+}
+
+aside ul {
 	    list-style: none;
 	     font-size: 14pt
 }
@@ -353,6 +366,18 @@ footer{
 		width: 350px;
 		height: 300px;
 		border-radius: 20px;
+	}
+/*Para los introduccion*/
+
+#introduccion_1{
+		text-align: justify;
+		 font-size: 16pt
+	}
+/*Para los que es*/
+
+#que_es_1{
+		text-align: justify;
+		 font-size: 16pt
 	}
 
 	aside ul {
@@ -420,7 +445,20 @@ footer{
 		height: 400px;
 		border-radius: 20px;
 	}
-	aside ul p{
+/*Para los introduccion*/
+
+#introduccion_1{
+		text-align: justify;
+		 font-size: 18pt
+	}
+/*Para los que es*/
+
+#que_es_1{
+		text-align: justify;
+		 font-size: 18pt
+	}
+
+aside ul p{
 	    font-size: 28pt;
 }
 footer{
