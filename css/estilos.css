@@ -161,6 +161,33 @@ nav{
 	width: 25%;
 }
 
+#contenedor_actividad{
+	margin: 0.5em auto;
+	width: 97%;
+	padding: 0;
+	border-radius: 0.5em;
+	text-align: center;
+}
+#contenedor_actividad div{
+	display: inline-flex;
+	width: 100%;
+}
+
+#contenedor_actividad div article{
+	background: #FFFFFF;
+	border-radius: 0.5em;
+	padding: 0.25em;
+	width: 100%;
+}
+#contenedor_actividad div aside{
+	background: #FFFFFF;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin-left: 0.5%;
+	vertical-align: top;
+	width: 25%;
+}
+
 #inicio_1{
 	text-align: justify;
 	height: 500px;
